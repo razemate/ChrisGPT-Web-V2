@@ -1,0 +1,25 @@
+Add a scroll bar on the left panel so users can scroll down if in case the other sections are not visible on the screen. 
+
+The "Add file, URL, Images, Videos, etc." input text box and the arrow icon facing upwards is the function to upload any type of file including videos and images as well as youtube channels, youtube video URL, URL links, etc, and theses are all be part of the Knowledge base reference of the corresponding AI Assistant. The :Remove" button is an option to delete previously uploaded or entered file reference. The "+ (Add file) is an option to add anothrer file for the AI assistant and should have another input text box/upload box. The "Save" button is to save the uploaded knowledge base files. Follow the same for all AI ASSISTANTS TAB and for additional AI Assistants added by the user. 
+
+The second screenshot is option to add custom instructions for AI. The inpout text box is where the user ccan add custom instructions and the Remove button is the option to remove the previously entered custom instructions. The "+ (Add instruction)" is the option to add another text input for custom instruction. The Save button is to save the Custom Instructions entered by the user. 
+
+
+The "Chat Talk to assistant is the option to stary chatting with the user created AI ASSISTANT. 
+
+
+The Add new AI Assistant is the Option to add another AI ASSISTNT. 
+
+The "Delete AI ASSISTANT" is the option to delete the specific AI Assistant. 
+
+The "LLM Settings" is the setting where users can enter their API keys for any of the listed LLM Providers. So make sure to create multiple text input boxes for users to enter the API according to the corresponding LLM profider field. Once an API is entered, it should have like a multiple dots to cover the API key similar to the typical dots showing when entering a password. Add a save button on every input text box for the LLM as well as the remove option.
+
+For the main Message Chat input box, add the Deep Research Option of Chatgpt and well as the Think longer option and the Search option
+
+All buttons on the UI should have a function, otherwise ask me on what function it should be.
+
+Review all these Instructions 10 times and make sure  to implement it.
+
+
+
+
