@@ -1,25 +1,24 @@
-Add a scroll bar on the left panel so users can scroll down if in case the other sections are not visible on the screen. 
+rebuild and clone my repo https://github.com/razemate/ChrisGPT-Web-V2.git
 
-The "Add file, URL, Images, Videos, etc." input text box and the arrow icon facing upwards is the function to upload any type of file including videos and images as well as youtube channels, youtube video URL, URL links, etc, and theses are all be part of the Knowledge base reference of the corresponding AI Assistant. The :Remove" button is an option to delete previously uploaded or entered file reference. The "+ (Add file) is an option to add anothrer file for the AI assistant and should have another input text box/upload box. The "Save" button is to save the uploaded knowledge base files. Follow the same for all AI ASSISTANTS TAB and for additional AI Assistants added by the user. 
+Make sure to implement all these:
 
-The second screenshot is option to add custom instructions for AI. The inpout text box is where the user ccan add custom instructions and the Remove button is the option to remove the previously entered custom instructions. The "+ (Add instruction)" is the option to add another text input for custom instruction. The Save button is to save the Custom Instructions entered by the user. 
+Left Panel Scroll Functionality Add a vertical scroll bar to the left panel. This ensures that if the content exceeds the visible screen height, users can scroll down to access all sections and AI Assistants.
+________________________________________
+Knowledge Base Upload Section (per AI Assistant) Each AI Assistant tab must include: o A text input box labeled “Add file, URL, Images, Videos, etc.”  This accepts any file type including PDFs, images, videos, URLs, YouTube videos, YouTube channels, etc.  These entries are used as Knowledge Base references for that specific AI Assistant.  The upward arrow icon triggers the file or URL upload action. o A Remove button: Deletes a specific uploaded or entered reference. o A “+ (Add file)” button:  Adds a new input/upload field for adding additional knowledge base items. o A Save button:  Saves all uploaded or entered knowledge base items. o Repeat this entire setup for each AI Assistant, including any user-added assistants.
+________________________________________
+Custom Instructions Section (per AI Assistant) Displayed in the second screenshot. Each AI Assistant must have: o A text input box to enter custom instructions for the assistant’s behavior. o A Remove button: Deletes a specific custom instruction. o A “+ (Add instruction)” button: Adds a new custom instruction input field. o A Save button: Saves all custom instructions. o This must also be duplicated for all existing and new AI Assistants.
+________________________________________
+Chat Functionality o The “Chat / Talk to Assistant” button allows the user to start chatting with the selected AI Assistant.
+________________________________________
+AI Assistant Management o “Add new AI Assistant”: Adds a new AI Assistant section identical in functionality to the existing ones. o “Delete AI Assistant”: Deletes the corresponding AI Assistant and all its data.
+________________________________________
+LLM Settings Panel This section allows users to enter API keys for multiple LLM providers. o Create separate input fields for each supported LLM provider:  OpenAI  DeepSeek  HuggingFace  Anthropic  Google Gemini  Others as needed o Each field must:  Mask input (show password dots for privacy).  Include a Save button to save the API key.  Include a Remove button to delete the saved key.
+________________________________________
+Main Chat Input Enhancements Below the main message input box, include: o A Deep Research toggle or button (for in-depth analysis). o A Think Longer button (for more thoughtful, longer responses). o A Search button (for optional online content lookup).
+________________________________________
+Button Function Enforcement o Every visible button must be functional. o If any button’s function is unclear or not covered above, ask for clarification before implementing.
+________________________________________
+✅ Final Reminder
+Review these instructions 10 times to ensure full accuracy and flawless implementation across all AI Assistants, screens, and user flows. Every instruction applies to all current and future AI Assistants.
 
-
-The "Chat Talk to assistant is the option to stary chatting with the user created AI ASSISTANT. 
-
-
-The Add new AI Assistant is the Option to add another AI ASSISTNT. 
-
-The "Delete AI ASSISTANT" is the option to delete the specific AI Assistant. 
-
-The "LLM Settings" is the setting where users can enter their API keys for any of the listed LLM Providers. So make sure to create multiple text input boxes for users to enter the API according to the corresponding LLM profider field. Once an API is entered, it should have like a multiple dots to cover the API key similar to the typical dots showing when entering a password. Add a save button on every input text box for the LLM as well as the remove option.
-
-For the main Message Chat input box, add the Deep Research Option of Chatgpt and well as the Think longer option and the Search option
-
-All buttons on the UI should have a function, otherwise ask me on what function it should be.
-
-Review all these Instructions 10 times and make sure  to implement it.
-
-
-
-
+Once done, review all my instructions again if you missed anything, fix it right away. Review and run again for the 3rd time and fix all issues. Review my instructions again, run and fix if you encounter any issues. You will not generate any output unless all my instructions are satisfied. Read my instructions 10 times, run the app ten times and fix it 20 times. No need to ask for my permission, just do it and make it perfect
